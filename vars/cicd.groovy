@@ -1,4 +1,4 @@
-def newgit(repo)
+def newGit(repo)
 {
-  sh 'https://github.com/intelliqittrainings/${repo}.git'
+  sh "https://github.com/intelliqittrainings/${repo}.git"
 }
